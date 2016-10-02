@@ -1,0 +1,24 @@
+{
+    "name": "marquine/activity-log",
+    "description": "Activity Log for Laravel Eloquent Models",
+    "keywords": ["laravel", "eloquent", "log"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Marquine",
+            "email": "leonardomarquine@gmail.com"
+        }
+    ],
+    "require": {
+        "cogpowered/finediff": "^0.3.1",
+        "illuminate/support": "^5.0.0",
+        "illuminate/database": "^5.0.0",
+        "illuminate/events": "^5.0.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Marquine\\ActivityLog\\": "src/Marquine/ActivityLog/"
+        }
+    }
+}
